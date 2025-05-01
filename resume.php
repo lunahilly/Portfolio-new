@@ -6,7 +6,7 @@
 		<div class="pagecontainer">
 			<?php include './views/nav.php' ?>
 			<div class="test">
-				resume
+				coming soon, be patient...
 			</div>
 		</div>
 	</body>

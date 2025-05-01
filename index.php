@@ -1,7 +1,8 @@
+<?php include 'reader.php' ?>
+
 <!doctype html>
 <html lang="en">
 	<?php include './views/head.php'; ?>
-
 	<body>
 
 		<?php include './views/nav.php' ?>
@@ -42,16 +43,18 @@
 					Qui ipsa but eaque and nequeporro. Ipsum aliqua or laboriosam, or velitesse or sit ipsam.
 				</p>
 			</header>
+
+			<?php $project = $json[$number]; ?>
 			<div class="highlighted">
 				<h2>Highlighted project</h2>
-				<article class="project">
-					<figure style="background-image: url('./img/projects/kunstspeeltuin.webp')" class="project_img">
-						<a href="">Go to project</a>
+				<article class="project highlight">
+					<figure style="background-image: url('<?= $project['img'] ?>')" class="project_img">
+						<a href='<?= $project['link'] ?>'>Go to project</a>
 					</figure>
 					<div class="project_about">
 						<div class="project_titleDate">
-							<h3>Project title</h3>
-							<p>30/04/2025</p>
+							<h3> <?php echo $project['title'] ?> </h3>
+							<p><?php $project['date'] ?></p>
 						</div>
 						<p>
 							About project text Cat ipsum dolor sit amet, in but velitesse ipsum and autem. Quisquam minim.

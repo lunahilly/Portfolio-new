@@ -1,12 +1,7 @@
 <nav class="nav">
 	<ul class="nav_list">
 		<li>
-			<a
-				<?php
-				if (strpos($_SERVER['REQUEST_URI'], "index") !== false) {
-					echo "class='active'";
-				}
-				?> href="../index.php">Home</a></li>
+			<a href="../index.php">Home</a></li>
 		<li>
 			<a
 				<?php

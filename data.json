@@ -2,7 +2,7 @@
   {
     "title": "Portfolio - website",
     "subtext": "",
-    "img": "img/projects/portfolio.webp",
+    "img": "./img/projects/portfolio.webp",
     "date": "01/05/2025",
     "link": "https://github.com/lunahilly/Portfolio-new.git"
   },

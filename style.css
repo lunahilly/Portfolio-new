@@ -24,7 +24,17 @@ a:hover, a:focus {
 	text-decoration: underline;
 }
 
+.cursor {
+	position: absolute;
+	width: 1.5em;
+	height: 1.375em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	pointer-events: none;
+}
+
 .pagecontainer {
+	padding: 0.5em;
 	position: relative;
 	margin-inline: auto;
 	max-width: var(--max-container-width);
@@ -38,6 +48,7 @@ a:hover, a:focus {
 	& .nav_list {
 		list-style: none;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		gap: 2em;
@@ -48,59 +59,63 @@ a:hover, a:focus {
 	}
 
 	& .active {
-		font-weight: bold;
 		text-decoration: underline !important;
 	}
 }
 
 .header {
 	width: 100%;
-	margin-block-start: 5em;
-	margin-block-end: 5em;
+	margin-block-start: 2em;
+	margin-block-end: 4em;
 
 	& .information {
 		position: relative;
-		display: flex;
-		align-items: center;
-		gap: 1em;
 		margin-inline: auto;
 		margin-block-end: 2em;
 		width: fit-content;
+		text-align: center;
+
+		@media screen and (min-width: 576px) {
+			display: flex;
+			align-items: center;
+			gap: 1em;
+		}
 	}
 
 	& .information_img {
-		max-width: 20em;
-		max-height: 20em;
+		max-width: 15em;
+		max-height: 15em;
 		border-radius: 50%;
 	}
 
 	& .information_text {
-		margin-block-end: 2em;
+		margin-block-end: 1.75em;
 
 		& h1 {
-			font-size: 2.125em;
+			font-size: 2em;
 			font-weight: bold;
 			margin-block-end: 0.25em;
 		}
 
 		& p {
-			font-size: 1.75em;
+			font-size: 1.25em;
 		}
 	}
 
 
 	& .information_socials {
+		position: relative;
 		display: flex;
+		justify-content: space-evenly;
 		gap: 2em;
 		list-style: none;
 	}
 
 	& .information_social {
 		text-align: center;
-		position: relative;
 
 		& img {
-			max-height: 3em;
+			max-height: 2em;
 			margin-inline: auto;
 		}
 
@@ -111,7 +126,6 @@ a:hover, a:focus {
 	}
 
 	& .aboutme {
-		font-size: 1.25em;
 		max-width: 60ch;
 		margin-inline: auto;
 		font-weight: var(--font-weight-p);
@@ -122,20 +136,29 @@ a:hover, a:focus {
 	& h2 {
 		text-align: center;
 		margin-block-end: 1em;
-		font-size: 1.5em;
+		font-size: 1.25em;
 	}
 }
 
+.highlight {
+	margin-block-end: 0 !important;
+}
+
+.projects {
+	margin-block-start: 2em;
+}
+
 .project {
+	margin-block-end: 1.5em;
 
 	& figure {
 		position: relative;
-		margin-block-end: 1em;
 		background: grey;
 		border-radius: 1em;
 		min-height: 20em;
 		background-size: cover;
 		background-position: center;
+		box-shadow: 2px 1px 4px black;
 	}
 
 	& a {
@@ -149,13 +172,13 @@ a:hover, a:focus {
 		border-radius: 0.5em;
 		padding: 0.5em;
 		font-size: 1.125em;
+		text-align: center;
 	}
 
 	.project_about {
 		padding: 0.75em;
 
 		& p {
-			font-size: 1.125em;
 			font-weight: var(--font-weight-p);
 		}
 	}
@@ -167,18 +190,18 @@ a:hover, a:focus {
 
 		& h3 {
 			font-weight: var(--font-weight-h3);
-			font-size: 1.5em;
+			font-size: 1.125em;
 		}
 
 		& p {
-			font-size: 1.125em;
 			font-weight: var(--font-weight-p);
 		}
 	}
 }
 
 .footer {
-	padding: 1em;
+	padding-inline: 0.5em;
+	padding-block: 1em;
 	text-align: center;
 	color: #585858;
 }

@@ -11,4 +11,5 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Luna's portfolio</title>
 	<link rel="stylesheet" href="../style.css">
+	<script type="text/javascript" src="../main.js" defer></script>
 </head>
