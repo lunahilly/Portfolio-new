@@ -3,17 +3,19 @@
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
 }
 
 :root {
 	--a4width: 2480px;
 	--a4height: 3508px;
-	--max-container-width: 30rem;
+	--max-container-width: 40rem;
+	--nav-height: 2em;
+	--font-weight-p: 400;
+	--font-weight-h3: 500;
 }
 
 a {
-	width: 100%;
-	height: 100%;
 	color: black;
 	text-decoration: none;
 }
@@ -31,6 +33,7 @@ a:hover, a:focus {
 .nav {
 	width: 100%;
 	margin-block-start: 1em;
+	min-height: var(--nav-height);
 
 	& .nav_list {
 		list-style: none;
@@ -52,7 +55,7 @@ a:hover, a:focus {
 
 .header {
 	width: 100%;
-	margin-block-start: 3em;
+	margin-block-start: 5em;
 	margin-block-end: 5em;
 
 	& .information {
@@ -66,36 +69,29 @@ a:hover, a:focus {
 	}
 
 	& .information_img {
-		max-width: 15em;
-		max-height: 15em;
+		max-width: 20em;
+		max-height: 20em;
 		border-radius: 50%;
 	}
 
-	& .information_about {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		min-height: 11em;
-	}
-
 	& .information_text {
-		margin-block-end: 0.5em;
+		margin-block-end: 2em;
 
 		& h1 {
-			font-size: 1.75em;
+			font-size: 2.125em;
 			font-weight: bold;
 			margin-block-end: 0.25em;
 		}
 
 		& p {
-			font-size: 1.25em;
+			font-size: 1.75em;
 		}
 	}
 
 
 	& .information_socials {
 		display: flex;
-		gap: 1.5em;
+		gap: 2em;
 		list-style: none;
 	}
 
@@ -104,63 +100,85 @@ a:hover, a:focus {
 		position: relative;
 
 		& img {
-			max-height: 2em;
+			max-height: 3em;
 			margin-inline: auto;
 		}
 
 		& p {
-			font-size: 0.75em;
+			font-size: 1em;
 			text-align: center;
 		}
 	}
 
 	& .aboutme {
+		font-size: 1.25em;
 		max-width: 60ch;
 		margin-inline: auto;
+		font-weight: var(--font-weight-p);
+	}
+}
+
+.highlighted {
+	& h2 {
+		text-align: center;
+		margin-block-end: 1em;
+		font-size: 1.5em;
 	}
 }
 
 .project {
-	& h2 {
-		text-align: center;
-		margin-block-end: 1em;
-		font-size: 1.125em;
-	}
 
 	& figure {
 		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: flex-end;
+		margin-block-end: 1em;
 		background: grey;
 		border-radius: 1em;
-		min-height: 18em;
+		min-height: 20em;
 		background-size: cover;
 		background-position: center;
-
 	}
 
 	& a {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 0;
 		max-width: fit-content;
-		justify-self: flex-end;
-		margin: 1em;
+		margin: 0.5em;
 		background: white;
 		border-radius: 0.5em;
-		padding: 0.375em;
+		padding: 0.5em;
+		font-size: 1.125em;
 	}
 
 	.project_about {
 		padding: 0.75em;
+
+		& p {
+			font-size: 1.125em;
+			font-weight: var(--font-weight-p);
+		}
 	}
 
 	.project_titleDate {
 		display: flex;
 		justify-content: space-between;
-		margin-block-end: 0.25em;
+		margin-block-end: 0.5em;
 
 		& h3 {
+			font-weight: var(--font-weight-h3);
+			font-size: 1.5em;
+		}
+
+		& p {
 			font-size: 1.125em;
-			font-weight: 400;
+			font-weight: var(--font-weight-p);
 		}
 	}
+}
+
+.footer {
+	padding: 1em;
+	text-align: center;
+	color: #585858;
 }

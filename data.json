@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Portfolio - website",
+    "subtext": "",
+    "img": "img/projects/portfolio.webp",
+    "date": "01/05/2025",
+    "link": "https://github.com/lunahilly/Portfolio-new.git"
+  },
+  {
+    "title": "Log in - website",
+    "subtext": "",
+    "img": "img/projects/log-in.webp",
+    "date": "30/11/2024",
+    "link": "https://github.com/lunahilly/portfolio/tree/main/lives/log-in"
+  },
+  {
+    "title": "Kunstspeeltuin - arduino",
+    "subtext": "",
+    "img": "img/projects/kunstspeeltuin.webp",
+    "date": "15/01/2024",
+    "link": "https://github.com/lunahilly/M6-Kunstspeeltuin.git"
+  },
+  {
+    "title": "Pumpkin - CSS art",
+    "subtext": "",
+    "img": "img/projects/pumpkin.webp",
+    "date": "01/11/2023",
+    "link": "https://github.com/lunahilly/M5prog_frontend/tree/main/pumpkin"
+  },
+  {
+    "title": "Project B - unity game",
+    "subtext": "",
+    "img": "img/projects/ProjectB.webp",
+    "date": "01/08/2023",
+    "link": "https://github.com/lunahilly/BO-M4space"
+  }
+]

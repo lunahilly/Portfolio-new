@@ -3,8 +3,8 @@
 	<?php include './views/head.php'; ?>
 
 	<body>
+		<?php include './views/nav.php' ?>
 		<div class="pagecontainer">
-			<?php include './views/nav.php' ?>
 			<div class="test">
 				projects
 			</div>
