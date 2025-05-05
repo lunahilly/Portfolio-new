@@ -65,6 +65,7 @@
 			</div>
 		</div>
 		<?php include './views/footer.php' ?>
+        <script src="https://cursor-party.lunahilly.partykit.dev/cursors.js"></script>
 	</body>
 
 </html>
