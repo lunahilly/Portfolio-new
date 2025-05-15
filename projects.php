@@ -15,7 +15,7 @@
 					$date = $item['date'];
 					$link = $item['link'];
 					echo "
-<article class='project'>
+						<article class='project'>
 					<figure style='background-image: url(   $img  )' class='project_img'>
 		<a href= $link >Go to github</a>
 	</figure>
@@ -29,7 +29,8 @@
 			Esse excepteur so commodo adipisci. Fugit beatae. Minima qui so officia nisi. Nesciunt laborum odit yet architecto. Veritatis nemo anim labore nesciunt, quia and aut.
 		</p>
 	</div>
-</article>";
+</article>
+						";
 				}
 				?>
 			</div>
