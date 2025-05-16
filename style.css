@@ -206,3 +206,24 @@ a:hover, a:focus {
 	text-align: center;
 	color: #585858;
 }
+
+.pinkyh2{
+    text-align: center;
+	margin-top: 5em;
+}
+
+.pinkies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;
+}
+
+.pinkyimg{
+	position: absolute;
+}
+
+.flip{
+	right: 5em;
+    transform: scaleX(-1);
+}
