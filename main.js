@@ -9,7 +9,6 @@ function generateRandomString() {
 }
 
 let ID = generateRandomString();
-console.log(ID);
 
 function createcursor(a) {
 	let cursorId = a;
@@ -44,11 +43,5 @@ window.addEventListener('mousemove', (e) => {
 	y = e.pageY;
 	UserCursor.style.left = e.pageX + 'px';
 	UserCursor.style.top = e.pageY + 'px';
-});
-
-
-const socket = new WebSocket('ws://localhost:8000');
-socket.addEventListener('open', (event) => {
-	socket.send('Hello Server!');
 });
 
