@@ -18,13 +18,13 @@
 						</div>
 						<ul class="information_socials">
 							<li class="information_social">
-								<a href="">
+								<a href="https://github.com/lunahilly/">
 									<img src="./img/logos/github-mark.webp" alt="The github logo">
 									<p>Github</p>
 								</a>
 							</li>
 							<li class="information_social">
-								<a href="">
+								<a href="https://www.linkedin.com/in/luna-hilversum-b90937277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
 									<img src="./img/logos/LI-In-Bug.webp" alt="The linkedin logo">
 									<p>Linkedin</p>
 								</a>
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 		<?php include './views/footer.php' ?>
-        <script src="https://cursor-party.lunahilly.partykit.dev/cursors.js"></script>
+		<script src="https://cursor-party.lunahilly.partykit.dev/cursors.js"></script>
 	</body>
 
 </html>
