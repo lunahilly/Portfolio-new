@@ -14,7 +14,7 @@
 					<div>
 						<div class="information_text">
 							<h1>Luna Hilversum</h1>
-							<p>Front-end developer</p>
+							<p>Full-stack developer</p>
 						</div>
 						<ul class="information_socials">
 							<li class="information_social">
@@ -39,8 +39,7 @@
 					</div>
 				</div>
 				<p class="aboutme">
-					Cat ipsum dolor sit amet, velitesse but quisquam do, but lorem. Architecto exercitation and consequat sunt. Suscipit qui so illum, or dicta duis natus for cupidatat.
-					Qui ipsa but eaque and nequeporro. Ipsum aliqua or laboriosam, or velitesse or sit ipsam.
+					My name is Luna, and I am a full-stack developer. I was born on March 6, 2005, in Beinsdorp. During high school, I was first introduced to coding in physics class, which sparked my love for software development. This led me to pursue a degree in software development at Mediacollege Amsterdam, where I discovered my passion for accessibility and design.
 				</p>
 			</header>
 
@@ -54,11 +53,10 @@
 					<div class="project_about">
 						<div class="project_titleDate">
 							<h3> <?php echo $project['title'] ?> </h3>
-							<p><?php $project['date'] ?></p>
+							<p><?php echo $project['date'] ?></p>
 						</div>
 						<p>
-							About project text Cat ipsum dolor sit amet, in but velitesse ipsum and autem. Quisquam minim.
-							Esse excepteur so commodo adipisci. Fugit beatae. Minima qui so officia nisi. Nesciunt laborum odit yet architecto. Veritatis nemo anim labore nesciunt, quia and aut.
+							<?php echo $project['subtext'] ?>
 						</p>
 					</div>
 				</article>

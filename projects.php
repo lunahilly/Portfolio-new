@@ -4,6 +4,7 @@
 
 	<body>
 		<?php include './views/nav.php' ?>
+		<h1 class="myworkTitle">My work</h1>
 		<div class="pagecontainer">
 			<div class="projects">
 				<?php
@@ -21,12 +22,11 @@
 	</figure>
 	<div class='project_about'>
 		<div class='project_titleDate'>
-			<h3>  $title </h3>
+			<h2>  $title </h2>
 			<p>  $date </p>
 		</div>
 		<p>
-			About project text Cat ipsum dolor sit amet, in but velitesse ipsum and autem. Quisquam minim.
-			Esse excepteur so commodo adipisci. Fugit beatae. Minima qui so officia nisi. Nesciunt laborum odit yet architecto. Veritatis nemo anim labore nesciunt, quia and aut.
+			$subtext
 		</p>
 	</div>
 </article>

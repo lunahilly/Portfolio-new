@@ -1,35 +1,35 @@
 [
   {
     "title": "Portfolio - website",
-    "subtext": "",
+    "subtext": "This portfolio was created during my internship at Special Moments Group, where I discovered my passion for design and accessibility. During my internship, I decided to upgrade my portfolio to make it more accessible, simpler, and user-friendly.",
     "img": "./img/projects/portfolio.webp",
     "date": "01/05/2025",
     "link": "https://github.com/lunahilly/Portfolio-new.git"
   },
   {
     "title": "Log in - website",
-    "subtext": "",
+    "subtext": "- This page is currently under development - <br> This login page is a fun personal project where I explore quirky and unconventional ways to log into an account. I came across a humorous Instagram video that joked about this concept, and I decided to bring it to life.",
     "img": "img/projects/log-in.webp",
     "date": "30/11/2024",
     "link": "https://github.com/lunahilly/portfolio/tree/main/lives/log-in"
   },
   {
     "title": "Kunstspeeltuin - arduino",
-    "subtext": "",
+    "subtext": "This project was part of an exam where we had to use Arduino. Since I really enjoy working with Arduino, I found this exam particularly fun and engaging. That’s why I wanted to include it in my portfolio.",
     "img": "img/projects/kunstspeeltuin.webp",
     "date": "15/01/2024",
     "link": "https://github.com/lunahilly/M6-Kunstspeeltuin.git"
   },
   {
     "title": "Pumpkin - CSS art",
-    "subtext": "",
+    "subtext": "CSS art is one of my favorite things to experiment with. While I've created many pieces, this one is definitely my favorite. Made for Halloween, which happens to be my favorite holiday, I added an animation to make it extra special.",
     "img": "img/projects/pumpkin.webp",
     "date": "01/11/2023",
     "link": "https://github.com/lunahilly/M5prog_frontend/tree/main/pumpkin"
   },
   {
     "title": "Project B - unity game",
-    "subtext": "",
+    "subtext": "In my first year of college, I originally studied game development instead of web development. This is the game I created that year with a group of students. It won 2nd and 1st place in a competition, and it still holds a special place in my heart. That’s why I decided to include it, even though the code isn’t perfect.s",
     "img": "img/projects/ProjectB.webp",
     "date": "01/08/2023",
     "link": "https://github.com/lunahilly/BO-M4space"
