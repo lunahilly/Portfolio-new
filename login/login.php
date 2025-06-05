@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
-	<?php include './views/head.php'; ?>
+	<?php include '../views/head.php'; ?>
 	<body>
-		<?php include './views/nav.php' ?>
+		<?php include '../views/nav.php' ?>
 		<div class="login">
 			<form class="form" action="check.php    " method="post">
 				<label for="username" class="form_labels">username:</label>

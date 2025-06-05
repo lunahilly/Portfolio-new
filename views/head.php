@@ -12,4 +12,5 @@
 	<title>Luna's portfolio</title>
 	<link rel="stylesheet" href="../style.css">
 	<script type="text/javascript" src="../main.js" defer></script>
+	<script type="text/javascript" src="../login.js" defer></script>
 </head>

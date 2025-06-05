@@ -5,7 +5,7 @@
 	<body>
 		<?php include './views/nav.php' ?>
 		<h1 class="myworkTitle">My work</h1>
-		<div class="pagecontainer">
+		<div class="pageContainer">
 			<div class="projects">
 				<?php
 				include 'reader.php';

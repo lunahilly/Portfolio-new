@@ -1,0 +1,36 @@
+{
+  'education': [
+    {
+      "title": "Software Development (MBO4)",
+      "place": "Mediacollege Amsterdam - Amsterdam",
+      "date": "2022 - present",
+      "text": "I started studying software development at MA in 2022, initially focusing on game development. Later, I shifted to web development, where I’ve been building modern, user-friendly applications."
+    },
+    {
+      "title": "Cyber Security Course",
+      "place": "IBM - Amsterdam",
+      "date": "24 April 2024",
+      "text": "I completed a one-day cybersecurity course at IBM, where I learned the fundamentals of how data is transferred over the internet, such as the process behind sending an email."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Flyball Instructor",
+      "place": "KC Kennemerland - Heemstede",
+      "date": "2022- present",
+      "text": "As volunteers, my sister and I currently train three flyball groups at the local cynology club where we grew up. We've guided multiple teams to an advanced level through structured, hands-on coaching."
+    },
+    {
+      "title": "Service Staff – Bar & Host Services",
+      "place": "Courtyard by Marriot - Hoofddorp",
+      "date": "2023 - present",
+      "text": "I am currently working as a Food and Beverage Server at Courtyard by Marriott. My primary responsibilities include bartending and taking orders in the brasserie. Additionally, I have helped train multiple new employees, contributing to team development and smooth operations."
+    },
+    {
+      "title": "Intern Software Development",
+      "place": "Special Moments Group",
+      "date": "February 2025 - July 2025",
+      "text": "As part of my studies, I am required to complete two internships at software companies. For my first internship, I chose SMG, where I gained valuable experience in website accessibility and adhering to company standards. I also gained insight into the business environment."
+    }
+  ]
+}

@@ -37,7 +37,7 @@ a:hover, a:focus {
 	pointer-events: none;
 }
 
-.pagecontainer {
+.pageContainer {
 	padding: 0.5em;
 	position: relative;
 	margin-inline: auto;
@@ -165,7 +165,7 @@ a:hover, a:focus {
 		min-height: 20em;
 		background-size: cover;
 		background-position: center;
-		box-shadow: 2px 1px 4px black;
+		border: 1px solid black;
 	}
 
 	& a {
@@ -196,7 +196,7 @@ a:hover, a:focus {
 		justify-content: space-between;
 		margin-block-end: 0.5em;
 
-		& h3 {
+		& h2 {
 			font-weight: var(--font-weight-h3);
 			font-size: 1.125em;
 		}
@@ -224,8 +224,9 @@ a:hover, a:focus {
 	align-items: center;
 	justify-content: space-between;
 	padding: 5em;
-	max-width: 10em;
+	max-width: 20em;
 	margin-inline: auto;
+	background: red;
 }
 
 .pinkyimg {
@@ -246,4 +247,36 @@ a:hover, a:focus {
 	text-align: center;
 	font-size: 1.5em;
 	margin-block: 2em;
+}
+
+.cvList {
+
+}
+
+.cvH2 {
+	margin-inline: auto;
+}
+
+.cvListItem {
+
+}
+
+.cvListItemTop {
+
+}
+
+.cvListItemH3 {
+
+}
+
+.cvListItemDate {
+
+}
+
+.cvListItemPlace {
+
+}
+
+.cvListItemText {
+
 }
