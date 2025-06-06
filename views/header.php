@@ -49,6 +49,7 @@
 			</ul>
 		</div>
 	</div>
+	<h2 class="hidden">Profile</h2>
 	<p class="aboutme">
 		My name is Luna, and I am a full-stack developer. I was born on March 6, 2005, in Beinsdorp. During high school, I was first introduced to coding in physics class, which sparked my love for software development. This led me to pursue a degree in software development at Mediacollege Amsterdam, where I discovered my passion for accessibility and design.
 	</p>

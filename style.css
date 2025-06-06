@@ -207,42 +207,6 @@ a:hover, a:focus {
 	}
 }
 
-.footer {
-	padding-inline: 0.5em;
-	padding-block: 1em;
-	text-align: center;
-	color: #585858;
-}
-
-.pinkyh2 {
-	text-align: center;
-	margin-top: 5em;
-}
-
-.pinkies {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5em;
-	max-width: 20em;
-	margin-inline: auto;
-	background: red;
-}
-
-.pinkyimg {
-	position: absolute;
-	max-width: 10em;
-}
-
-.left {
-	left: calc(50% - 10em);
-}
-
-.flip {
-	right: calc(50% - 10em);
-	transform: scaleX(-1);
-}
-
 .myworkTitle {
 	text-align: center;
 	font-size: 1.5em;
@@ -250,33 +214,50 @@ a:hover, a:focus {
 }
 
 .cvList {
-
+	margin-block-end: 2em;
 }
 
 .cvH2 {
-	margin-inline: auto;
+	font-size: 1.25em;
+	text-align: center;
+	margin-block-end: 1em;
 }
 
 .cvListItem {
-
+	margin-block: 2.5em;
 }
 
 .cvListItemTop {
-
+	display: flex;
+	justify-content: space-between;
 }
 
-.cvListItemH3 {
-
-}
-
-.cvListItemDate {
-
-}
-
-.cvListItemPlace {
-
+.cvListItemTop, .cvListItemPlace, .cvListItemText {
+	margin-block-end: 0.5em;
 }
 
 .cvListItemText {
+	font-style: italic;
+}
 
+.footer {
+	padding-inline: 0.5em;
+	padding-block: 1em;
+	text-align: center;
+	color: #585858;
+}
+
+.hidden {
+	display: none;
+}
+
+
+@media print {
+	.hidden {
+		display: block;
+	}
+
+	.information_socials {
+		display: none;
+	}
 }

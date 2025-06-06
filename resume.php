@@ -1,11 +1,8 @@
 <?php
 $data = file_get_contents('resume.json');
 $arrays = json_decode($data, true);
-echo $arrays[0];
-foreach ($arrays as $cv) {
-	$educations = $cv['education'];
-	$experiences = $cv['experience'];
-}
+$educations = $arrays['education'];
+$experiences = $arrays['experience'];
 ?>
 
 
@@ -28,15 +25,36 @@ foreach ($arrays as $cv) {
 					$date = $education['date'];
 					$text = $education['text'];
 					echo '
-											<div class="cvListItem">
-					<div class="cvListItemTop">
-						<h3 class="cvListItemH3"> ' . $title . '</h3>
-						<p class="cvListItemDate">' . $date . '</p>
-					</div>
-					<p class="cvListItemPlace">' . $place . '</p>
-					<p class="cvListItemText">' . $text . '</p>
-				</div>  
-						';
+															<div class="cvListItem">
+									<div class="cvListItemTop">
+										<h3> ' . $title . '</h3>
+										<p>' . $date . '</p>
+									</div>
+									<p>' . $place . '</p>
+									<p class="cvListItemText">' . $text . '</p>
+								</div>
+										';
+				}
+				?>
+			</section>
+			<section class="cvList">
+				<h2 class="cvH2">Experience</h2>
+				<?php
+				foreach ($experiences as $experience) {
+					$title = $experience['title'];
+					$place = $experience['place'];
+					$date = $experience['date'];
+					$text = $experience['text'];
+					echo '
+															<div class="cvListItem">
+									<div class="cvListItemTop">
+										<h3> ' . $title . '</h3>
+										<p>' . $date . '</p>
+									</div>
+									<p>' . $place . '</p>
+									<p class="cvListItemText">' . $text . '</p>
+								</div>
+										';
 				}
 				?>
 			</section>
