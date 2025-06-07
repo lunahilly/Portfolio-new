@@ -1,5 +1,5 @@
 # Portfolio-new
 
-This is my portfolio update 2025
+Welcome to my portfolio!
 
-trying this when home -> https://github.com/partykit/cursor-party
+© copyright

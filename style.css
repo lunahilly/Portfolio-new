@@ -142,6 +142,28 @@ a:hover, a:focus {
 	}
 }
 
+.contact{
+	margin-block-end: 2em;
+
+	& h2{	
+		font-size: 1.125em;
+	}
+
+	& ul{
+		list-style: none;
+	}
+
+	& li {
+		margin-block-start: 0.75em;
+		display: flex;
+		align-items: center;
+	}
+
+	& .icon{
+		margin-inline-end: 0.5em;
+	}
+}
+
 .highlighted {
 	& h2 {
 		text-align: center;
@@ -251,13 +273,65 @@ a:hover, a:focus {
 	display: none;
 }
 
+#ghost{
+	min-height: 15em;
+	min-width: 15em;
+	display: none;
+}
+
+.DownloadPrint{
+	display: flex;
+	justify-content: center;
+	gap: 5em;
+	flex-wrap: wrap;
+
+	& button, a {
+		padding-inline: 1em;
+		padding-block: 0.5em;
+		border: 1px solid darkgray;
+		border-radius: 0.5em;
+		text-align: center;
+		background: rgba(250, 250, 250, 1);
+	}
+
+	& button:hover, a:hover{
+		cursor: pointer;
+	}
+}
+
 
 @media print {
 	.hidden {
 		display: block;
 	}
 
-	.information_socials {
+	.notHidden{
 		display: none;
+	}
+
+	.information{
+		display: flex;
+		margin-block-end: 1em;
+		align-items: center;
+	}
+
+	.information_text{
+		& p, h1{
+			margin-inline-start: 1em;
+		}
+	}
+
+	.information_img{
+		width: 15em;
+		max-height: 15em;
+	}
+
+	.header{
+		margin-block: 2em;
+		width: 100%;
+	}
+
+	.aboutme{
+		margin-block-end: 2em;
 	}
 }

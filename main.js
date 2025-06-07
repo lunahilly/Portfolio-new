@@ -45,3 +45,27 @@ window.addEventListener('mousemove', (e) => {
 	UserCursor.style.top = e.pageY + 'px';
 });
 
+let ghost = document.getElementById("ghost");
+let pfp = document.getElementById("pfp");
+let clickCount = 0;
+
+function Fun(){
+	clickCount++;
+
+	function Bye(){
+		console.log("Bye boo :(")
+		ghost.style.display = "none";
+		pfp.style.display = "block";
+	}
+
+	if (clickCount > 2){
+		console.log("BOO!");
+		ghost.style.display = "block";
+		pfp.style.display = "none";
+		setTimeout(Bye, 2000)
+		clickCount = 0;
+	}
+
+}
+
+pfp.addEventListener("click", Fun)

@@ -1,4 +1,4 @@
-<nav class="nav">
+<nav class="nav notHidden">
 	<ul class="nav_list">
 		<li>
 			<a href="../index.php">Home</a></li>
